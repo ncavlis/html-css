@@ -57,3 +57,11 @@ section{
    font-family: var(--fonte3);
    font-size: 3.5vw;
 }
+section>p{
+    font-style: italic;
+    
+}
+
+#img1{
+    background-image: url('');
+}
