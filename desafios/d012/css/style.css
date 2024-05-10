@@ -61,15 +61,7 @@ section>p{
     font-style: italic;
     
 }
-
-section.imagem{
-    background-color: black;
-    color: white;
-
+#img1{
+    background-image: url('imagens/');
 }
-section#img1{
-   
-    background-image: url('imagens/background001.jpg');
-    background-position: cover;
 
-}
