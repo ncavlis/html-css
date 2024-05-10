@@ -2,7 +2,7 @@
 
 :root{
     --fonte1:Verdana, Geneva, Tahoma, sans-serif;
-    --fonte2:'Passion One', sans-serif;
+    --fonte2:'Passion One', cursive;
     --fonte3:'Sriracha', cursive;
 }
 
@@ -59,9 +59,50 @@ section{
 }
 section>p{
     font-style: italic;
+    padding-bottom: 50px;
+    
     
 }
-#img1{
-    background-image: url('imagens/');
+section.imagem{
+    background-color: black;
+    color: white;
+    
+  
 }
-
+section#img1{
+    background-image: url('../imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.imagem>p{
+    background-color: rgba(0, 0, 0, 0.429);
+    display: inline-block;
+    padding: 5px;
+}
+section#img2{
+    background-image: url('../imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer>p{
+    font-family: var(--fonte1);
+    font-size: 1em;
+    padding: 10px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+footer a:hover{
+    text-decoration: underline;
+}
