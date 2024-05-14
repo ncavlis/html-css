@@ -8,7 +8,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 *{
     margin: 0px;
@@ -40,12 +40,12 @@ header>p{
     padding-bottom: 50px;
 }
 
-header a{
+header a, footer a{
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
-header a:hover{
+header a:hover, footer a:hover{
     text-decoration: underline;
 }
 
@@ -97,12 +97,4 @@ footer>p{
     font-family: var(--fonte1);
     font-size: 1em;
     padding: 10px;
-}
-footer a{
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;
-}
-footer a:hover{
-    text-decoration: underline;
 }
